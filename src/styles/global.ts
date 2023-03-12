@@ -9,7 +9,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font: 400 1rem "JetBrains Mono", sans-serif;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-size: 1.2em;
     background: ${() => colors.background};
+
+    @media (max-width: 550px) {
+      font-size: 16px;
+    }
   }
 `
