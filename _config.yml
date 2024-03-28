@@ -1,0 +1,31 @@
+header_name: Maykon
+url: http://localhost:4000
+
+social:
+  email: maykongsn@gmail.com
+  facebook:
+  github: maykongsn
+  instagram:
+  linkedin: maykonnunes 
+  gitlab:
+  twitter:
+
+projects:
+  - name: ReactSniffer
+    url: https://github.com/maykongsn/reactsniffer  
+    description: Tool for code smells detection
+  - name: JMetrics
+    url: https://github.com/maykongsn/jmetrics
+    description: Extracts Java code metrics
+  - name: gemdev
+    url: https://github.com/maykongsn/gemdev
+    description: Jekyll minimal theme
+  - name: CIRef
+    url: https://github.com/maykongsn/ciref
+    description: Documentation of Java refactorings
+
+theme: gemdev-theme
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
